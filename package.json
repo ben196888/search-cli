@@ -1,0 +1,33 @@
+{
+  "name": "search-cli",
+  "version": "0.0.0",
+  "description": "search cli",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "lint": "eslint --ext .js .",
+    "test": "env NODE_PATH=$NODE_PATH:$PWD mocha 'test/**/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ben196888/search-cli.git"
+  },
+  "author": "ben196888",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ben196888/search-cli/issues"
+  },
+  "homepage": "https://github.com/ben196888/search-cli#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0",
+    "lodash": "^4.17.10",
+    "lunr": "^2.3.2",
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.4.0",
+    "mocha": "^5.2.0"
+  }
+}

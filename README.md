@@ -53,3 +53,7 @@ npm run lint
 ```
 npm test
 ```
+
+## Todo list
+
++ Integrate [lunr](https://lunrjs.com)
